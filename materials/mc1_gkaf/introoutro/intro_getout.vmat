@@ -1,0 +1,47 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	//---- Disable tonemapping ----
+	F_DISABLE_TONE_MAPPING 1
+
+	//---- Lighting ----
+	F_UNLIT 1
+
+	//---- Shadows ----
+	F_DO_NOT_CAST_SHADOWS 1
+
+	//---- Translucent ----
+	F_ALPHA_TEST 1
+
+	//---- Ambient Occlusion ----
+	TextureAmbientOcclusion "materials/default/default_ao.tga"
+
+	//---- Color ----
+	g_flFadeExponent "1.000"
+	g_flModelTintAmount "1.000"
+	g_nScaleTexCoordUByModelScaleAxis "0"
+	g_nScaleTexCoordVByModelScaleAxis "0"
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+	TextureColor "materials/mc1_gkaf/introoutro/intro_getout_src/getout_color.psd"
+
+	//---- Fog ----
+	g_bFogEnabled "0"
+
+	//---- Lighting ----
+	g_flMetalness "0.000"
+	TextureRoughness "materials/default/default_rough.tga"
+
+	//---- Normal Map ----
+	TextureNormal "materials/default/default_normal.tga"
+
+	//---- Translucent ----
+	g_flAlphaTestReference "0.500"
+	g_flAntiAliasedEdgeStrength "1.000"
+	TextureTranslucency "materials/mc1_gkaf/introoutro/intro_getout_src/getout_trans.psd"
+}

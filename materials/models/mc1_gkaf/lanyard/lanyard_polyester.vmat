@@ -1,0 +1,6 @@
+"Layer0"
+{
+	"Shader"		"vr_simple.vfx"
+	"TextureNormal"		"materials/models\mc1_gkaf\lanyard/lanyard_polyester_normal.jpg"
+	"TextureColor"		"materials/models\mc1_gkaf\lanyard/lanyard_polyester_color.jpg"
+}
